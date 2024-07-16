@@ -1,7 +1,7 @@
 // Connection file should allow application to be hosted locally and on Render
 
 const Sequelize = require('sequelize');
-require('.env').config();
+require('dotenv').config();
 
 let sequelize;
 
